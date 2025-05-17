@@ -122,15 +122,14 @@
         }
     </style>
 
-    <title>Project Tailwind</title>
+    <title>Personal Portfolio by luth.rnd</title>
 </head>
 <body class="text-primary">
-    <!-- Navbar Start -->
+    <!-- Navbar Desktop -->
     <nav class="px-10 py-6 flex justify-between items-center font-display dark:bg-gray-900">
         <a href="#" id="logo" class="flex gap-2 items-center">
-            <img class="object-cover max-w-12 max-h-12 dark:hidden" src="./assets/img/logo.png" alt="Logo">
-            <img class="object-cover max-w-12 max-h-12 hidden dark:block" src="./assets/img/logodark.png" alt="Logo">
-            <span class="text-lg font-semibold dark:text-white">s.erzv</span>
+            <img class="object-cover max-w-12 max-h-12" src="./assets/img/foto-navbar-luthfi.png" alt="Logo">
+            <span class="text-lg font-semibold dark:text-white">luth.rnd</span>
         </a>
         <div id="nav-menu" class="hidden md:flex gap-12 dark:text-white">
             <a href="#hero" class="font-medium  hover:text-blue-500 relative group ">Home
@@ -146,10 +145,6 @@
                 <span class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-blue-400 transition-all duration-300 ease-in-out group-hover:left-0 group-hover:w-full"></span>
             </a>
         </div>
-        <button class="hidden md:block border dark:text-white border-gray-300 px-4 py-2 rounded transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-            <i class="fa-solid fa-message py-1 px-2 dark:text-white"></i>
-            Get in Touch
-        </button>
         <label class="switch" for="dark-toggle">
             <span class="sun">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -174,13 +169,13 @@
         <button class="p-2 md:hidden" onclick="menuOnMobile()">
             <i class="fa-solid fa-bars text-[#060932] dark:text-white"></i>
         </button>
-
+        <!-- Navbar Mobile -->
         <div  id="nav-mobile" class="fixed dark:text-white bg-white dark:bg-gradient-to-b dark:from-gray-900 dark:to-black z-10 inset-0 p-2 md:hidden">
             <div id="nav-bar" class="flex justify-between px-8 py-4">
                 <a href="#" id="logo" class="flex gap-2 items-center">
-                    <img class="object-cover max-w-12 max-h-12 dark:hidden" src="./assets/img/logo.png" alt="Logo">
-                    <img class="object-cover max-w-12 max-h-12 hidden dark:block" src="./assets/img/logodark.png" alt="Logo">
-                    <span class="text-lg font-semibold ">s.erzv</span>
+                    <img class="object-cover max-w-12 max-h-12 dark:hidden" src="./assets/img/foto-utama-luthfi.png" alt="Logo">
+                    <img class="object-cover max-w-12 max-h-12 hidden dark:block" src="./assets/img/foto-utama-luthfi.png" alt="Logo">
+                    <span class="text-lg font-semibold ">luthfiherianda</span>
                 </a>
                 <button class="md:hidden p-2" onclick="menuOnMobile()">
                     <i class="fa-solid fa-xmark"></i>
@@ -192,12 +187,7 @@
                 <a href="#project" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-md dark:hover:bg-white dark:hover:text-black">Projects</a>
                 <a href="#contact" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-md dark:hover:bg-white dark:hover:text-black">Contact</a>
             </div>
-            <div class="h-[1px] bg-gray-200 mx-4 dark:hover:bg-white dark:hover:text-black">
-                <button class="w-full px-4 py-4 hover:bg-gray-50 items-start flex">
-                    <i class="fa-solid fa-message py-1 px-2"></i>
-                    Get in Touch
-                </button>
-            </div>
+        
         </div>
     </nav>
     <!-- Navbar End -->
@@ -208,9 +198,9 @@
                 <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-42 pb-12 px-4 mx-auto">
                     <div id="hero-contain" class="lg:grid-cols-2 grid gap-8">
                         <div id="hero-desc" class="p-4 flex flex-col justify-center">
-                            <h1 class="font-bold text-8xl sm:text-[5rem] sm:pt-10 bg-clip-text bg-gradient-to-r from-[#2f39c6] to-[#aad3f8] text-transparent transition-colors duration-1000 ease-in-out">Personal Portfolio by nupers
+                            <h1 class="font-bold text-8xl sm:text-[5rem] sm:pt-10 bg-clip-text bg-gradient-to-r from-[#2f39c6] to-[#aad3f8] text-transparent transition-colors duration-1000 ease-in-out">Personal Portfolio by luth.rnd
                             </h1>
-                            <p class="mt-4 text-lg sm:text-justify lg:text-left dark:text-white">Your go-to place for everything tech, creativity, and innovation. Check out my portfolio and view my resume to know more about me.</p>
+                            <p class="mt-4 text-lg sm:text-justify lg:text-left dark:text-white">Where tech meets creativity — discover my projects, ideas, and experiences. Browse my portfolio and resume to get to know me better.</p>
                             <div id="social-media" class="mt-2 text-xl flex items-center">
                                 <a href="https://instagram.com/luthfiherianda"><i class="fa-brands fa-instagram p-3 bg-[#aad3f8] dark:bg-white hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
                                 <a href="https://www.linkedin.com/in/luthfiheriandaputra"><i class="fa-brands fa-linkedin p-3 bg-[#aad3f8] dark:bg-white  hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
@@ -218,15 +208,14 @@
                                 <a href="./assets/CV_Luthfi_Herianda_Putra.pdf" class="text-sm font-medium p-3 ml-4 bg-white dark:bg-white  border border-blue-300 rounded transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg">Check Out My Resume <i class="fa-solid fa-arrow-up-right-from-square px-1"></i></a>
                             </div>
                         </div>
-                        <div id="hero-img" class="lg:w-[500px] relative mx-auto border  border-blue-700 dark:border-gray-600 rounded-full h-14" style="box-shadow: 0 0 20px #aad3f8;">
-                            <img class="lg:w-full object-cover" src="./assets/img/foto-Luthfi.png" alt=""
-                            data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
+                        <div id="hero-img" class="lg:w-[300px] lg:h-[300px] relative mx-auto border border-blue-700 dark:border-gray-600 rounded-full overflow-hidden" style="box-shadow: 0 0 20px #aad3f8;">
+                            <img class="w-full h-full object-cover rounded-full" src="./assets/img/foto-utama-luthfi.png"alt=""style="object-position: bottom; transform: translateY(10%);"data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
                         </div>
                     </div>
                 </div>
             </section>
     
-        <!-- About Secion -->
+        <!-- About Section -->
           <section id="about" class="bg-gradient-to-t from-white to-[#c4e3ff] dark:text-white dark:from-gray-900 dark:to-black pt-28 pb-6 text-slate-700 font-display flex sm:px-10">
           <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-84 pb-28 px-4 mx-auto">
               <h1 class="font-display sm:text-6xl mb-8 text-2xl font-bold text-center sm:pb-8"
@@ -235,92 +224,122 @@
                   <div id="about-desc" class="flex flex-col justify-center">
                       <div class="max-w-xl mb-6">
                           <h2 class="sm:text-4xl lg:text-left sm:leading-none max-w-lg mb-6 text-3xl font-semibold tracking-tight sm:text-center"
-                              data-aos="fade-right" data-aos-duration="500"> Hello! I'm Sarah
+                              data-aos="fade-right" data-aos-duration="500"> Hi! I'm Luthfi Herianda
                           </h2>
                           <p class="md:text-sm text-base text-justify" data-aos="fade-right"
-                              data-aos-duration="500" data-aos-delay="200"> An Information Systems student at UIN Jakarta. I'm passionate about technology because it allows me to explore innovative solutions, deepen my understanding of the digital world, and contribute to society's advancements. 
-                              <a href="./about.html" class="text-gray-400 text-sm">More about me <i class="fa-solid fa-arrow-up-right-from-square px-1"></i></a>
+                              data-aos-duration="500" data-aos-delay="200"> An Information Systems student at UIN Syarif Hidayatullah Jakarta with strengths in leadership, effective 
+communication, time management, and problem-solving. Possesses technical skills in data analysis, data 
+science, and programming. Actively involved in communities and organizations that foster professional skill 
+development.
+ 
                             </p>
                         </div>
                         <h2 class="sm:text-4xl sm:leading-none max-w-lg mb-6 text-3xl font-semibold tracking-tight"
                       data-aos="fade-right" data-aos-duration="500"> Skills</h2>
                       <div id="ad-skills" class="flex flex-wrap">
+
                             <!-- HTML -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language HTML', 'I have good HTML skills, which serve as the foundation of web development. With a solid understanding, I can create well-structured and standards-compliant websites. Additionally, my certificates reinforce my expertise, giving me confidence in developing functional and user-friendly websites.', './assets/img/HTML.png')" 
-                                class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/HTML.png"  class="w-[55px] h-auto cursor-pointer" alt="HTML Logo">
+                             <div id="ad-skills" class="flex flex-wrap gap-4 justify-center items-center">
+                           <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" 
+                            onclick="showModalSkills('Programming Language HTML', 'I have good HTML skills, which serve as the foundation of web development. With a solid understanding, I can create well-structured and standards-compliant websites. Additionally, my certificates reinforce my expertise, giving me confidence in developing functional and user-friendly websites.', './assets/img/HTML.png')">
+                            <img src="./assets/img/HTML.png" class="w-[55px] h-auto cursor-pointer" alt="HTML Logo"></div>
                             </div>
+
                             <!-- CSS -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language CSS', 'I have good CSS skills, which are essential for styling and laying out websites. With a solid understanding of CSS, I can create visually appealing, responsive, and well-structured designs. My knowledge of CSS frameworks and best practices, combined with relevant certifications, allows me to confidently build stylish, user-friendly, and adaptable websites.', './assets/img/css.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language CSS', 'I have good CSS skills, which are essential for styling and laying out websites. With a solid understanding of CSS, I can create visually appealing, responsive, and well-structured designs. My knowledge of CSS frameworks and best practices, combined with relevant certifications, allows me to confidently build stylish, user-friendly, and adaptable websites.', './assets/img/css.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/css.png"  class="w-[55px] h-auto cursor-pointer" alt="CSS Logo">
                             </div>
+
                             <!-- JS -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language JavaScript', 'I have a good understanding of JavaScript, especially in front-end development. I am capable of using JavaScript to create interactive and dynamic websites, enhancing the user experience. In addition to my relevant knowledge, I have taken several courses on JavaScript, covering both front-end and back-end development, as well as general JavaScript concepts. These courses have further strengthened my skills, and with the certifications I hold.', './assets/img/js.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language JavaScript', 'I have a good understanding of JavaScript, especially in front-end development. I am capable of using JavaScript to create interactive and dynamic websites, enhancing the user experience. In addition to my relevant knowledge, I have taken several courses on JavaScript, covering both front-end and back-end development, as well as general JavaScript concepts. These courses have further strengthened my skills, and with the certifications I hold.', './assets/img/js.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/js.png"  class="w-[55px] h-auto cursor-pointer" alt="JS Logo">
                             </div>
+
                             <!-- Python -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language Python', 'I have a basic understanding of Python, especially in data science, where I’ve learned fundamental programming concepts like data types, while statements, methods, classes, functions, and file processing. I’ve also participated in a Python fundamental course, which has strengthened my skills in applying Python for various data-related tasks.', './assets/img/python.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language Python', 'I have a basic understanding of Python, especially in data science, where I’ve learned fundamental programming concepts like data types, while statements, methods, classes, functions, and file processing. I’ve also participated in a Python fundamental course, which has strengthened my skills in applying Python for various data-related tasks.', './assets/img/python.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/python.png"  class="w-[55px] h-auto cursor-pointer" alt="Python Logo">
                             </div>
+
                             <!-- R -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language R', 'I have a basic understanding of R, particularly in data analysis and visualization. I\'ve learned how to use R\'s powerful libraries like ggplot2 and dplyr to create informative visualizations and analyze datasets effectively. Through various courses and hands-on practice.', './assets/img/R.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language R', 'I have a basic understanding of R, particularly in data analysis and visualization. I\'ve learned how to use R\'s powerful libraries like ggplot2 and dplyr to create informative visualizations and analyze datasets effectively. Through various courses and hands-on practice.', './assets/img/R.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/R.png"  class="w-[55px] h-auto cursor-pointer" alt="R Logo">
                             </div>
+
                             <!-- C -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language C', 'I have a basic understanding of C programming, which has provided me with a strong foundation in computer science concepts. I\'ve learned essential C concepts such as variables, loops, conditionals, and functions, and have applied them in various small projects. This knowledge gives me the ability to write simple, efficient programs and understand core programming principles.', './assets/img/C.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language C', 'I have a basic understanding of C programming, which has provided me with a strong foundation in computer science concepts. I\'ve learned essential C concepts such as variables, loops, conditionals, and functions, and have applied them in various small projects. This knowledge gives me the ability to write simple, efficient programs and understand core programming principles.', './assets/img/C.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/C.png"  class="w-[55px] h-auto cursor-pointer" alt="C Logo">
                             </div>
-                            <!-- My SQL -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language MySQL', 'I have a basic understanding of MySQL and have applied it in creating projects using phpMyAdmin through XAMPP and Laragon. I’m familiar with creating and managing databases, writing queries, and performing tasks like inserting, updating, and deleting records. This knowledge allows me to build simple database-driven applications and manage data efficiently.', './assets/img/mysql.png')" 
+
+                            <!-- MySQL -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language SQL', 'I have a basic understanding of SQL in MySQL and have applied it in creating projects using python. I’m familiar with creating and managing databases, writing queries, and performing tasks like inserting, updating, and deleting records. This knowledge allows me to build simple database-driven applications and manage data efficiently.', './assets/img/mysql.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/mysql.png"  class="w-[55px] h-auto cursor-pointer" alt="MySQL Logo">
                             </div>
+
                             <!-- Java -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language Java', 'I have a basic understanding of Java, which is widely used in software development for building reliable and scalable applications. I have learned fundamental concepts such as variables, loops, methods, object-oriented programming (OOP), classes, and functions. With Java, I can create simple applications and understand core concepts that are essential for more advanced development. I have also worked on small projects, gaining hands-on experience in applying Java to solve real-world problems.', './assets/img/java.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Programming Language Java', 'I have a basic understanding of Java, which is fundamental concepts such as variables, loops, methods, object-oriented programming (OOP), classes, and functions. With Java, I can create simple applications and understand core concepts that are essential for more advanced development.', './assets/img/java.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/java.png"  class="w-[55px] h-auto cursor-pointer" alt="Java Logo">
                             </div>
-                            <!-- PHP -->
-                            <div id="openModal" onclick="showModalSkills('Programming Language PHP', 'I have a basic understanding of PHP and have used it in several projects to create dynamic websites. I am comfortable with concepts like handling form data, working with databases, and integrating PHP with HTML. With this knowledge, I can develop basic web applications and handle server-side tasks efficiently.', './assets/img/php.png')" 
+
+                            <!-- Tableau -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Tableau', 'I have a foundational knowledge of Tableau and have used it to visualize data and create interactive dashboards. I am comfortable connecting to various data sources, building charts and graphs, and using filters and calculated fields. With this skill, I can communicate data-driven insights in a clear and impactful way.', './assets/img/Tableau.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/php.png"  class="w-[55px] h-auto cursor-pointer" alt="HTML Logo">
+                                <img src="./assets/img/Tableau.png"  class="w-[55px] h-auto cursor-pointer" alt="Tableau Logo">
                             </div>
-                            <!-- Laravel -->
-                            <div id="openModal" onclick="showModalSkills('PHP Framework', 'I have basic experience with Laravel, a popular PHP framework, and have used it to build web applications. Laravel provides a clean and elegant syntax, which makes developing complex web systems more manageable. I have learned how to work with routes, controllers, views, migrations, and models in Laravel to build scalable applications.', './assets/img/laravel.png')" 
+
+                            <!-- Looker Studio -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Google Looker Studio', 'I have experience using Looker Studio to create engaging and informative data reports. I understand how to connect different data sources such as Google Sheets or Google Analytics, apply filters, and use custom metrics. This allows me to build reports that are both functional and visually clear for decision-making.', './assets/img/Looker Studio.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/laravel.png"  class="w-[55px] h-auto cursor-pointer" alt="Laravel Logo">
+                                <img src="./assets/img/Looker Studio.png"  class="w-[55px] h-auto cursor-pointer" alt="Looker Studio Logo">
                             </div>
-                            <!-- Tailwind -->
-                            <div id="openModal" onclick="showModalSkills('CSS Framework Tailwind', 'I have a good understanding of Tailwind CSS, which is a utility-first CSS framework that allows for fast and efficient web design. I can use Tailwind to create responsive, clean, and customizable designs with minimal effort. By applying utility classes directly in HTML, I can quickly style elements without writing custom CSS. I’ve worked on several projects using Tailwind, which has helped me develop a strong grasp of creating modern, responsive web interfaces efficiently. My portfolio website is built using Tailwind CSS, which helped me create a clean, responsive, and modern design. By utilizing Tailwind’s utility-first approach, I was able to efficiently style the website without writing extensive custom CSS. This allowed me to focus on creating a user-friendly interface and ensuring the design is adaptable across different screen sizes. Tailwind’s flexibility and ease of use played a key role in bringing my portfolio to life with a polished, professional look.', './assets/img/tailwind.png')" 
+
+                            <!-- Excel -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Microsoft Excel', 'I am proficient in basic and intermediate features of Excel, including formulas, functions, charts, and pivot tables. I can organize and analyze data efficiently, which supports my work in reporting, tracking, and data-driven decision-making.', './assets/img/Excel.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/tailwind.png"  class="w-[55px] h-auto cursor-pointer" alt="Tailwind Logo">
+                                <img src="./assets/img/Excel.png"  class="w-[55px] h-auto cursor-pointer" alt="Excel Logo">
                             </div>
-                            <!-- Github -->
-                            <div id="openModal" onclick="showModalSkills('Github and Git', 'I have experience using Git and GitHub to manage project versions and collaborate with other developers. Git allows me to track changes, manage branches, and revert to previous versions when necessary, ensuring the code stays organized and consistent. GitHub serves as a remote repository where I can push my code, share it with collaborators, and maintain a well-documented history of my projects. This version control system is crucial for efficient teamwork and ensuring code integrity throughout development. Additionally, my portfolio and other projects are stored and versioned on GitHub, showcasing my ability to manage and organize codebases.', './assets/img/git.png')" 
+
+                            <!-- Word -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Microsoft Word', 'Proficient in using Microsoft Word for a wide range of documentation tasks, including academic reports, formal letters, formatted proposals, and structured documents with tables, headers, and automatic table of contents. Skilled in applying advanced formatting styles, reviewing tools (track changes, comments), and document collaboration features for professional writing and editing workflows.', './assets/img/Word.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/github.png"  class="w-[55px] h-auto cursor-pointer" alt="github Logo">
+                                <img src="./assets/img/Word.png"  class="w-[55px] h-auto cursor-pointer" alt="Word Logo">
                             </div>
-                            <!-- Wordpress -->
-                            <div id="openModal" onclick="showModalSkills('Wordpress', 'I have experience working with WordPress, especially in building and managing websites. At Yayasan Al-Hadiid, I was involved in developing and maintaining the foundation\'s website using WordPress. This gave me hands-on experience with the platform\'s features, themes, and plugins, allowing me to create a functional and user-friendly site for the organization. Additionally, I have worked on several WordPress projects, where I applied my knowledge to customize themes, install plugins, and optimize performance. WordPress has been a valuable tool in my web development journey, as it allows me to deliver dynamic websites with ease.', './assets/img/wordpress.png')" 
+
+                            <!-- PowerPoint -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Microsoft PowerPoint', 'Experienced in creating visually appealing and well-structured presentations using Microsoft PowerPoint. Able to design slides with cohesive layouts, engaging visuals, effective animations, and transitions.', './assets/img/PowerPoint.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-                                <img src="./assets/img/wordpress.png"  class="w-[55px] h-auto cursor-pointer" alt="Wp Logo">
+                                <img src="./assets/img/PowerPoint.png"  class="w-[55px] h-auto cursor-pointer" alt="PowerPoint Logo">
                             </div>
+
+                            <!-- Canva -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Canva', 'I am comfortable using Canva to design visual content such as presentations, posters, infographics, and social media graphics. I have experience applying consistent branding and layout principles to create designs that are both attractive and functional. This skill supports my ability to communicate ideas visually.', './assets/img/Canva.png')" 
+                                class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
+                                <img src="./assets/img/Canva.png "  class="w-[55px] h-auto cursor-pointer" alt="Canva Logo">
+                            </div>
+
                             <!-- Figma -->
-                            <div id="openModal" onclick="showModalSkills('Figma', 'I have experience using Figma, a design tool that I have become familiar with through my participation in a UI/UX course. During the course, I learned the fundamentals of UI/UX design and how to create user-friendly interfaces. Figma has been a valuable tool for designing wireframes, prototypes, and user interfaces, helping me bring my design ideas to life. My interest in UI/UX continues to grow as I develop my skills in crafting intuitive and aesthetically pleasing user experiences.', './assets/img/figma.png')" 
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Figma', 'I have experience using Figma, a design tool that I have become familiar with through my participation in a UI/UX course. During the course, I learned the fundamentals of UI/UX design and how to create user-friendly interfaces. Figma has been a valuable tool for designing wireframes, prototypes, and user interfaces, helping me bring my design ideas to life. My interest in UI/UX continues to grow as I develop my skills in crafting intuitive and aesthetically pleasing user experiences.', './assets/img/figma.png')" 
                                 class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
                                 <img src="./assets/img/figma.png"  class="w-[55px] h-auto cursor-pointer" alt="Figma Logo">
+                            </div>
+
+                            <!-- Github -->
+                            <div class="openModal w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg" onclick="showModalSkills('Github and Git', 'I have experience using Git and GitHub to manage project versions and collaborate with other developers. Git allows me to track changes, manage branches, and revert to previous versions when necessary, ensuring the code stays organized and consistent. GitHub serves as a remote repository where I can push my code, share it with collaborators, and maintain a well-documented history of my projects. This version control system is crucial for efficient teamwork and ensuring code integrity throughout development. Additionally, my portfolio and other projects are stored and versioned on GitHub, showcasing my ability to manage and organize codebases.', './assets/img/github.png')" 
+                                class="w-14 h-14 p-3 bg-blue-300 hover:border dark:hover:bg-white hover:border-blue-400 hover:bg-transparent rounded-full m-2 transition duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
+                                <img src="./assets/img/github.png"  class="w-[55px] h-auto cursor-pointer" alt="github Logo">
                             </div>
                             <!-- <a href="#" class="text-sm font-medium p-3 bg-white border border-blue-300 rounded mt-6 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg">View Certificates <i class="fa-solid fa-arrow-up-right-from-square px-1"></i></a> -->
                       </div>
                   </div>
-                  <div id="about-img" class="lg:w-full relative mx-auto border border-blue-700  dark:border-gray-600  rounded-full" style="box-shadow: 0 0 20px #aad3f8;">
-                      <img class="lg:w-full object-cover" src="./assets/img/serzv-img.png" alt=""
-                          data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
+                  <img class="lg:w-full object-cover" style="object-position: top center; transform: translateY(30px);" src="./assets/img/foto-luthfi-2.png" alt=""
+                    data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
+
                   </div>
               </div>
           </div>
@@ -341,51 +360,43 @@
             <h1 class="sm:text-6xl mb-8 text-2xl font-bold text-center">Projects</h1>
             <div id="myProject" class="flex flex-wrap justify-center">
                 <div class="bg-white dark:bg-gray-600 p-4 rounded shadow-lg max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/TE-App.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">Tech Edify</h2>
-                    <p class="text-sm mb-2">Mobile App Android-Based Informatics Learning</p>
-                    <div id="openModal" onclick="showModalProjects('Luthfi Project', 'I am machine learning engineer two main roles in this project, Project Leader and Software Developer. My responsibilities include leading the team, assigning tasks to team members, designing application algorithms, designing the application\'s user interface and user experience, and taking full responsibility for the application\'s creation and development process. Tech Edify is an Android-based informatics learning mobile application for high schools created with Kodular. This application uses a Google Spreadsheet database to store various learning materials. Tech Edify is designed to provide an interactive learning experience for high school students in understanding informatics concepts.', './assets/img/TE-App.png', 'https://serzv.my.id/TechEdify/')">
-                        <p class="p-2 bg-gray-100 dark:bg-gray-500 hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
+                    <img src="./assets/img/Prediksi Harga Tiket Pesawat.png" alt="" class="w-[380px] h-auto rounded mb-2">
+                    <h2 class="text-xl font-semibold">Flight Ticket Price Prediction</h2>
+                    <p class="text-sm mb-2">Data Science, Machine Learning</p>
+                    <div id="openModal" onclick="showModalProjects('Flight Ticket Price Prediction', 'Proyek ini mengembangkan model prediktif untuk menentukan harga tiket pesawat berdasarkan berbagai faktor seperti maskapai, kota asal/tujuan, jumlah hari sebelum keberangkatan, dan kelas penerbangan. Menggunakan algoritma XGBoost, model ini berhasil mencapai akurasi tinggi (R² hingga 86.59%) setelah menangani outlier dan melakukan transformasi data. Solusi ini sangat potensial digunakan untuk sistem rekomendasi pembelian tiket dan strategi penetapan harga dinamis bagi maskapai.', './assets/img/.png', 'https://www.linkedin.com/in/luthfiheriandaputra/details/projects/1057638550/multiple-media-viewer?profileId=ACoAAEw88kQBtoA6xyyQSpV8gmAFC3OnhlprYU0&treasuryMediaId=1746962106675&type=DOCUMENT&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3ByfKSA7INTlCKP1KcGk4YkA%3D%3D')">
+                        <p class="p-2 bg-gray-100 dark:bg-gray-500 hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">More<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
                     </div>
                 </div>
                 <div class="bg-white  dark:bg-gray-600  p-4 rounded shadow-lg max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/TE-Web.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">Tech Edify</h2>
-                    <p class="text-sm mb-2">WordPress-Based Informatics Learning Website</p>
-                    <div id="openModal" onclick="showModalProjects('Tech Edify - WordPress-Based Informatics Learning Website', 'Tech Edify is a learning platform for high school students originally developed as a mobile app and has now expanded into a web version with more features. The website aims to provide an interactive learning experience for high school students to help them understand informatics concepts. In this project, I\'m responsible for both the UI/UX design and the web development. My duties include designing the user interface and user experience and overseeing the entire creation and development process of the website. The website is built using WordPress and leverages various plugins to enhance functionality and user engagement. Tech Edify utilizes a well-organized content management system to store learning materials, including PDFs integrated with a flipbook plugin to provide a book-like reading experience. Additionally, the website features quizzes, a discussion forum, and an admin bot for students to ask questions. Teachers can add materials and monitor their students\'s progress through a dashboard. Tech Edify ensures that learning is engaging and effective by combining rich multimedia content with interactive elements.', './assets/img/TE-Web.png', 'https://techedify.serzv.my.id')">
-                        <p class="p-2 bg-gray-100  dark:bg-gray-500  hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
+                    <img src="./assets/img/Data Science_Group5.png" alt="" class="w-[380px] h-auto rounded mb-2">
+                    <h2 class="text-xl font-semibold"> Car Fuel Efficiency Prediction</h2>
+                    <p class="text-sm mb-2">Data Science, Machine Learning</p>
+                    <div id="openModal" onclick="showModalProjects(' Car Fuel Efficiency Prediction','Project ini bertujuan memprediksi efisiensi bahan bakar (MPG) mobil berdasarkan spesifikasi teknis seperti berat, tenaga mesin, dan jumlah silinder. Dengan menggunakan model regresi linear dan teknik eksplorasi data lanjutan, tim kami berhasil mengembangkan sistem rekomendasi mobil hemat bahan bakar. Hasil model menunjukkan akurasi tinggi (MAE: 1.79), menjadikannya bermanfaat untuk konsumen maupun industri otomotif dalam memilih kendaraan yang efisien.', './assets/img/.png', 'https://www.linkedin.com/in/luthfiheriandaputra/details/projects/1747463225493/single-media-viewer?type=DOCUMENT&profileId=ACoAAEw88kQBtoA6xyyQSpV8gmAFC3OnhlprYU0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3ByfKSA7INTlCKP1KcGk4YkA%3D%3D')">
+                        <p class="p-2 bg-gray-100  dark:bg-gray-500  hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">More<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
                     </div>
                 </div>
                 <div class="bg-white p-4  dark:bg-gray-600 rounded shadow-lg max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/ss.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">Sky Solutions</h2>
-                    <p class="text-sm mb-2">Website Iclimate Change</p>
-                    <div id="openModal" onclick="showModalProjects('Sky Solutions - Website Iclimate Change', 'Sky Solutions is an educational website focused on raising awareness about climate change, aligning with SDG #13: Climate Action. The website is designed to provide interactive and visually engaging content to educate visitors about the causes, impacts, and solutions related to climate change. This project is developed as part of the final project for the HITLAB boot camp in the Information Systems program at UIN Jakarta. The website is built using HTML, CSS, and JavaScript to deliver a fully responsive and interactive user experience. In this project, I take on the roles of UI/UX designer and front-end developer. My responsibilities include crafting an intuitive and visually appealing user interface, enhancing the overall user experience, and implementing the design into functional code. The project showcases my ability to merge design principles with technical skills to create an impactful educational platform.', './assets/img/ss.png', 'https://skysolutions.serzv.my.id')">
-                        <p class="p-2 bg-gray-100 hover:border dark:bg-gray-500  hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
+                    <img src="./assets/img/Savin_HawkVisionGroup.png" alt="" class="w-[380px] h-auto rounded mb-2">
+                    <h2 class="text-xl font-semibold">Savin Fintech Mobile App</h2>
+                    <p class="text-sm mb-2">UI/UX Mobile application</p>
+                    <div id="openModal" onclick="showModalProjects('Savin Fintech Mobile App', 'Savin adalah solusi digital untuk meningkatkan literasi keuangan, terutama bagi generasi muda dan masyarakat pedesaan. Aplikasi ini dilengkapi fitur e-wallet, pencatatan keuangan, transfer, QRIS, dan edukasi finansial. Dengan tampilan yang ramah pengguna dan fitur intuitif, Savin membantu penggunanya merencanakan keuangan secara bijak, mengurangi gaya hidup konsumtif, dan membangun masa depan finansial yang lebih sehat.', './assets/img/.png', 'https://www.linkedin.com/in/luthfiheriandaputra/details/projects/1747465401517/single-media-viewer?type=DOCUMENT&profileId=ACoAAEw88kQBtoA6xyyQSpV8gmAFC3OnhlprYU0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3Byw7thhCfT2GNnXTeDVqjJA%3D%3D')">
+                        <p class="p-2 bg-gray-100 hover:border dark:bg-gray-500  hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">More<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
                     </div>
                 </div>
                 <div class="bg-white p-4 rounded shadow-lg  dark:bg-gray-600  max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/cc.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">Coding Office</h2>
-                    <p class="text-sm mb-2">WordPress-Based Coding Course Website</p>
-                    <div id="openModal" onclick="showModalProjects('Coding Office - WordPress-Based Coding Course Website', 'I spearheaded the development of Coding Course, a dynamic online learning platform dedicated to teaching digital skills. The platform offers courses in HTML, CSS, and practical mini-projects. It provides an engaging and intuitive learning environment and is designed to accommodate various courses beyond web development to meet industry demands and learner interests.', './assets/img/cc.png', 'https://codingoffice.serzv.my.id')">
-                        <p class="p-2 bg-gray-100 hover:border hover:border-blue-400 dark:bg-gray-500  hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
+                    <img src="./assets/img/GrowtHub Cover.png" alt="" class="w-[380px] h-auto rounded mb-2">
+                    <h2 class="text-xl font-semibold">GrowtHub Edtech Mobile App</h2>
+                    <p class="text-sm mb-2">UI/UX Mobile application</p>
+                    <div id="openModal" onclick="showModalProjects('CGrowtHub Edtech Mobile App', 'GrowtHub adalah prototipe aplikasi pembelajaran digital yang didesain untuk menjawab tantangan pengembangan keterampilan di era digital. Menyasar pekerja, mahasiswa, dan pelajar, aplikasi ini menawarkan akses fleksibel ke kursus, sistem ranking, quiz interaktif, dan progress tracker. Dengan pendekatan desain minimalis, fitur personalisasi, dan tanpa iklan, GrowtHub memastikan pengalaman belajar yang nyaman, inklusif, dan berdampak.', './assets/GrowtHub Cover.png', 'https://www.linkedin.com/in/luthfiheriandaputra/details/projects/1747465035348/single-media-viewer?type=DOCUMENT&profileId=ACoAAEw88kQBtoA6xyyQSpV8gmAFC3OnhlprYU0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3Byw7thhCfT2GNnXTeDVqjJA%3D%3D')">
+                        <p class="p-2 bg-gray-100 hover:border hover:border-blue-400 dark:bg-gray-500  hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">More<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
                     </div>
                 </div>
                 <div class="bg-white p-4 rounded shadow-lg  dark:bg-gray-600 max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/uigt.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">UI Design</h2>
-                    <p class="text-sm mb-2">UI Design Globe Trekker Website Tour n Travel</p>
-                    <div id="openModal" onclick="showModalProjects('UI Design Globe Trekker Website Tour n Travel', 'This project is a case study from the UI/UX Design course at Dibimbing, where I designed a travel platform with a focus on an intuitive user experience. The design includes login/sign-up, homepage, and travel booking features, as well as About, Blog, and Packages pages. The color palette and visual elements were chosen to reflect GlobeTrekker\'s identity, combining aesthetics and functionality. ', './assets/img/uigt.png', 'bit.ly/studycaseUIUX_sarah')">
-                        <p class="p-2 bg-gray-100 hover:border dark:bg-gray-500  hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
-                    </div>
-                </div>
-                <div class="bg-white p-4 rounded shadow-lg  dark:bg-gray-600  max-w-[400px] m-2 sm:my-5">
-                    <img src="./assets/img/uialhadiid.png" alt="" class="w-[380px] h-auto rounded mb-2">
-                    <h2 class="text-xl font-semibold">UI Design</h2>
-                    <p class="text-sm mb-2">UI Design Yayasan Al-Hadiid Cileungsi</p>
-                    <div id="openModal" onclick="showModalProjects('UI Design Yayasan Al-Hadiid Cileungsi', 'As the UI Designer for the Yayasan Al-Hadiid website project, my role involved designing a user-friendly and visually appealing interface. I was responsible for ensuring that the design was not only functional but also reflective of the foundation\'s values and mission. The design process began with conducting research and creating rough sketches on paper. I then proceeded to design the UI using Figma to test navigation and user experience.', './assets/img/uialhadiid.png', '#')">
-                        <p class="p-2 bg-gray-100 hover:border dark:bg-gray-500  hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See more<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
+                    <img src="./assets/img/Data Analysis_Group9.png" alt="" class="w-[380px] h-auto rounded mb-2">
+                    <h2 class="text-xl font-semibold">Economic Growth Analysis</h2>
+                    <p class="text-sm mb-2">Data Analysis</p>
+                    <div id="openModal" onclick="showModalProjects('Economic Growth Analysis', 'Proyek analisis ini mengevaluasi pengaruh investasi infrastruktur, indeks inovasi, dan tingkat adopsi teknologi terhadap pertumbuhan ekonomi di Indonesia. Meski hasil korelasi menunjukkan hubungan yang lemah antar variabel, proyek ini memberikan wawasan berharga bahwa faktor eksternal lain mungkin lebih dominan. Analisis ini bermanfaat untuk pengambilan kebijakan berbasis data, alokasi dana pembangunan, dan kajian akademik terkait pembangunan berkelanjutan (SDG #9). ', './assets/img/.png', 'https://www.linkedin.com/in/luthfiheriandaputra/details/projects/1747465035348/single-media-viewer?type=DOCUMENT&profileId=ACoAAEw88kQBtoA6xyyQSpV8gmAFC3OnhlprYU0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3Byw7thhCfT2GNnXTeDVqjJA%3D%3D')">
+                        <p class="p-2 bg-gray-100 hover:border dark:bg-gray-500  hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">More<i class="fa-solid fa-arrow-up-right-from-square px-1"></i></p>
                     </div>
                 </div>
             </div>
@@ -397,22 +408,34 @@
                   <img id="modalImageP" src="" alt="" class="w-9/10 h-auto rounded-md mb-4">
                   <h2 id="modalTitleP" class="text-xl font-semibold mb-4 dark:text-white">Modal Title</h2>
                   <p id="modalContentP" class="mb-4 text-justify text-sm dark:text-white">This is modal content.</p>
-                  <a id="modalLiveDemo" href="#" target="_blank" class="text-sm bg-blue-200 text-black py-2 px-4 rounded hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">Live Demo</a>
+                  <a id="modalLiveDemo" href="#" target="_blank" class="text-sm bg-blue-200 text-black py-2 px-4 rounded hover:border hover:border-blue-400 hover:bg-white rounded transition duration-500 ease-in-out hover:scale-105 hover:shadow-lg">See on Linkedin</a>
                 </div>
               </div>
               
         </div>
        </section>
 
+       <!-- API Section -->
+    <div id="quote-box" class="bg-white dark:bg-gray-800 text-center max-w-2xl mx-auto my-10 p-6 rounded-xl shadow-lg flex flex-col items-center justify-center">
+        <i class="fas fa-quote-left text-2xl mb-2 text-blue-400"></i>
+        <p id="quote-text" class="text-lg font-medium text-gray-800 dark:text-white">Loading...</p>
+        <p id="quote-author" class="mt-2 italic text-gray-600 dark:text-gray-300">— Author</p>
+        <button onclick="displayRandomQuote()" class="mt-4 px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-500 transition">
+        New Quote
+        </button>
+    </div>
+
+
+
        <!-- Contact Section -->
         <section id="contact" class="font-display w-full bg-[#c4e3ff] dark:bg-black">
             <div class="bg-white dark:bg-gray-200 w-full justify-center p-20 items-center rounded-t-[70px] rounded-r-none rounded-l-none ">
                 <h2 class="text-center pt-4 text-6xl font-bold bg-clip-text bg-gradient-to-r from-[#2f39c6] to-[#aad3f8] text-transparent transition-colors duration-1000 ease-in-out">Let's Connect!</h2>
-                <p class="text-center font-medium lg:text-xl mt-2 md:text-lg sm:text-sm">I’d love to hear from you! Whether you have questions, need advice, or just want to say hello, feel free to reach out. Find me on:</p>
+                <p class="text-center font-medium lg:text-xl mt-2 md:text-lg sm:text-sm">Got something on your mind? I’d be happy to hear it! Whether it's feedback, collaboration, or just a hello — reach out to me on:</p>
                 <div id="social-media" class="mt-2 text-xl flex items-center text-center justify-center">
                     <a href="https://instagram.com/luthfiherianda"><i class="fa-brands fa-instagram p-3 bg-[#aad3f8] hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
-                    <a href="https://www.linkedin.com/in/serzv"><i class="fa-brands fa-linkedin p-3 bg-[#aad3f8] hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
-                    <a href="https://github.com/s-erzv"><i class="fa-brands fa-github p-3 bg-[#aad3f8] hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/luthfiheriandaputra"><i class="fa-brands fa-linkedin p-3 bg-[#aad3f8] hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
+                    <a href="https://github.com/luthfiherianda"><i class="fa-brands fa-github p-3 bg-[#aad3f8] hover:bg-gradient-to-b from-[#7f9dff] to-[#aad3f8] rounded-full m-2 transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-lg"></i></a>
                 </div>
             </div>
         </section>
@@ -421,8 +444,8 @@
     <footer class="pt-3 justify-center dark:bg-gray-200 items-center px-4 font-display">
         <div class="h-[1px] bg-gray-300 w-full text-center"></div>
         <div class="flex justify-between gap-6 p-6 items-center">
-            <h1 class="text-xl font-semibold bg-clip-text bg-gradient-to-r from-[#2f39c6] to-[#aad3f8] text-transparent transition-colors duration-1000 ease-in-out">s.erzv</h1>
-            <p class="font-medium mt-[7px] text-sm text-gray-400">Copyright © 2025 nupers</p>
+            <h1 class="text-xl font-semibold bg-clip-text bg-gradient-to-r from-[#2f39c6] to-[#aad3f8] text-transparent transition-colors duration-1000 ease-in-out">luth.rnd</h1>
+            <p class="font-medium mt-[7px] text-sm text-gray-400">Copyright © 2025 luth.rnd</p>
         
         </div>
     </footer>
